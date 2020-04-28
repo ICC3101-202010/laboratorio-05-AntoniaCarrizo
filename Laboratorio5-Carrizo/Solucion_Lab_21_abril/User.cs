@@ -21,7 +21,7 @@ namespace Solucion_Lab_21_abril
         }
         public void OnEmailSent(object source, EventArgs e)
         {
-         
+
             int i = 0;
             while (i < 1)
             {
@@ -38,12 +38,12 @@ namespace Solucion_Lab_21_abril
                         i++;
                         break;
                     default:
-                        Console.WriteLine("Opcion no valida");   
+                        Console.WriteLine("Opcion no valida");
                         break;
 
                 }
             }
-            
+
 
         }
     }
